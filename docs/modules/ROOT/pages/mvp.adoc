@@ -1,0 +1,32 @@
+= MVP for expense-manager
+
+== Functional
+
+- Multi-tenancy on single DB(?)
+
+- Multiple users per tenant
+
+- Add income
+
+- Add expense
+
+- Add recurrent income/expense
+
+- Categories/tags (optional)
+
+- Report(s)
+
+== Non-functional
+
+- Cloud agnostic deployment (k8s?)
+
+- Cheapest possible - some kind of IaaS?
+
+- Split backend to small services/bounded contexts
+
+- Split UI in micro-frontends (optional)
+
+- Native docker images (optional)
+
+- Observability 🆘
+
