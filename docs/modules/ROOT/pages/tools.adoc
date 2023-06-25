@@ -1,0 +1,73 @@
+= Tools for expense-manager
+
+== Version Control
+
+- Github
+
+- Gitlab
+
+-  ?
+
+== Issue Tracker / Project Management
+
+- Github
+
+- Gitlab
+
+- Trello
+
+== Documentation
+
+- Antora
+
+- Plain wikis on GitHub/gitlab
+
+-  Docusaurus
+
+- ?
+
+== Chat
+
+- Slack
+
+- Discord
+
+-  ?
+
+== IDE
+
+- IntelliJ
+
+== Backend stack
+
+- Kotlin / Spring Boot
+
+== Frontend stack
+
+- Typescript / Angular
+
+== Style guide backend
+
+- Kotlin/Intellij default
+
+- custom
+
+-  ?
+
+== Style guide frontend
+
+- Prettier
+
+-  ?
+
+== Linter backend
+
+- Ktlint
+
+-  ?
+
+== Linter frontend
+
+- Prettier
+
+-  ?
