@@ -11,7 +11,7 @@
   "scripts": {
     "build": "antora playbook.yml",
     "watch": "npm-watch",
-    "live-server": "live-server --watch=build --open=build/site/docs/1",
+    "live-server": "live-server --watch=build --open=build/site",
     "start": "npm-run-all -p watch live-server"
   },
   "watch": {

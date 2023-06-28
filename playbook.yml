@@ -1,5 +1,6 @@
 site:
   title: Expense Manager Docs
+  start_page: docs:ROOT:index.adoc
 
 content:
   sources:
