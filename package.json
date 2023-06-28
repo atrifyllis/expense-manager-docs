@@ -1,9 +1,27 @@
 {
   "devDependencies": {
     "@antora/cli": "3.1.4",
-    "@antora/site-generator": "3.1.4"
+    "@antora/site-generator": "3.1.4",
+    "npm-run-all": "^4.1.5",
+    "@antora/lunr-extension": "^1.0.0-alpha.8",
+    "live-server": "^1.2.2",
+    "npm-watch": "^0.11.0",
+    "watch": "^1.0.2"
   },
-  "dependencies": {
-    "@antora/lunr-extension": "^1.0.0-alpha.8"
+  "scripts": {
+    "build": "antora playbook.yml",
+    "watch": "npm-watch",
+    "live-server": "live-server --watch=build --open=build/site/docs/1",
+    "start": "npm-run-all -p watch live-server"
+  },
+  "watch": {
+    "build": {
+      "patterns": [
+        "docs"
+      ],
+      "extensions": "adoc",
+      "quiet": false,
+      "verbose": true
+    }
   }
 }
